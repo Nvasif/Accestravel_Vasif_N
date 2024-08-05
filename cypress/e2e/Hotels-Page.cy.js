@@ -5,7 +5,7 @@ describe('Hotels Page Tests', () => {
     const ChildrenNum = '[name="Filter.ChildrenNum"]'
     const checkin = '[name="Filter.CheckIn"]'
     const checkout ='[name="Filter.CheckOut"]'
-    const error = '[class="Invalid date range"]'
+    
 
     beforeEach(() => {
         cy.visit(hotelsPageUrl);
